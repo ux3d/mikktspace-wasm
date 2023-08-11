@@ -86,6 +86,8 @@ npm run dist:web
 
 `wasm-pack` is required to be installed.
 
+The built WASM module will reside in `dist/web`.
+
 ## Contributing
 
 1. Install [Rust](https://www.rust-lang.org/tools/install) and [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/)
