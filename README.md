@@ -19,8 +19,8 @@ If you have an...
 
 ...then MikkTSpace vertex tangents may resolve or prevent rendering issues with normal maps.
 
-| correct | incorrect |
-|---------|-----------|
+| correct                                    | incorrect                                      |
+| ------------------------------------------ | ---------------------------------------------- |
 | ![correct rendering](./assets/correct.png) | ![incorrect rendering](./assets/incorrect.png) |
 
 > **Figure:** *[Flight Helmet](https://github.com/KhronosGroup/glTF-Sample-Models/tree/master/2.0/FlightHelmet) glTF 2.0 sample, shown with correct (left) and incorrect (right) vertex tangents.*
@@ -75,6 +75,16 @@ input geometry must be unindexed/unwelded.
 [`Float32Array`][1]
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array
+
+## Building
+
+For rollup based projects, run:
+
+```
+npm run dist:web
+```
+
+`wasm-pack` is required to be installed.
 
 ## Contributing
 
