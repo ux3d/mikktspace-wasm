@@ -14,6 +14,7 @@
     "dist:module": "wasm-pack build --release --target bundler --out-dir dist/module --out-name mikktspace_module",
     "dist:main": "wasm-pack build --release --target nodejs --out-dir dist/main --out-name mikktspace_main",
     "dist:debug": "wasm-pack build --dev --target nodejs --out-dir dist/main --out-name mikktspace_main",
+    "dist:web": "wasm-pack build --release --target web --out-dir dist/main --out-name mikktspace_main",
     "clean": "rm dist/main* && rm dist/module*",
     "test": "tape test/test.js | tap-spec",
     "preversion": "yarn dist && yarn test",
